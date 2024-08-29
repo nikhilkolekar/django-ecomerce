@@ -1,0 +1,111 @@
+{% extends "base/base.html"%}
+
+{%  block start %}
+
+<section class="section-content padding-y bg">
+    <div class="container">
+    
+    <!-- ============================ COMPONENT 1 ================================= -->
+    <div class="card">
+        <div class="row no-gutters">
+            <aside class="col-md-6">
+    <article class="gallery-wrap"> 
+    <div class="img-big-wrap">
+      <div> <a href="#"><img src="/media/{{product.product_images.first.image}}"></a></div>
+    </div> <!-- slider-product.// -->
+    <div class="thumbs-wrap">
+      {% for image in product.product_images.all %}
+      <a href="#" class="item-thumb"> <img src="/media/{{image.image}}"></a>
+      
+      {% endfor %}
+
+    </div> <!-- slider-nav.// -->
+    </article> <!-- gallery-wrap .end// -->
+            </aside>
+            <main class="col-md-6 border-left">
+    <article class="content-body">
+    
+    <h2 class="title">{{product.product_name}}</h2>
+    
+    <div class="rating-wrap my-3">
+        <ul class="rating-stars">
+            <li style="width:80%" class="stars-active"> 
+                <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+                <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+                <i class="fa fa-star"></i> 
+            </li>
+            <li>
+                <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+                <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+                <i class="fa fa-star"></i> 
+            </li>
+        </ul>
+        <small class="label-rating text-muted">132 reviews</small>
+        <small class="label-rating text-success"> <i class="fa fa-clipboard-check"></i> 154 orders </small>
+    </div> <!-- rating-wrap.// -->
+    
+    <div class="mb-3"> 
+        <var class="price h4">${{product.price}}.00</var> 
+        <span class="text-muted">/per kg</span> 
+    </div> <!-- price-detail-wrap .// -->
+    
+    <p>{{product.product_desription}}</p>
+    
+    
+    <dl class="row">
+      <dt class="col-sm-3">Model#</dt>
+      <dd class="col-sm-9">Odsy-1000</dd>
+    
+      <dt class="col-sm-3">Color</dt>
+      <dd class="col-sm-9">Brown</dd>
+    
+      <dt class="col-sm-3">Delivery</dt>
+      <dd class="col-sm-9">Russia, USA, and Europe </dd>
+    </dl>
+    
+    <hr>
+        <div class="form-row">
+            <div class="form-group col-md flex-grow-0">
+                <label>Quantity</label>
+                <div class="input-group mb-3 input-spinner">
+                  <div class="input-group-prepend">
+                    <button class="btn btn-light" type="button" id="button-plus"> + </button>
+                  </div>
+                  <input type="text" class="form-control" value="1">
+                  <div class="input-group-append">
+                    <button class="btn btn-light" type="button" id="button-minus"> − </button>
+                  </div>
+                </div>
+            </div> <!-- col.// -->
+            {% if product.size_variant.count %}
+            <div class="form-group col-md">
+                    <label>Select size</label>
+                    <div class="mt-1">
+                      {% for size in product.size_variant.all %}
+                      
+                        <label class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" name="select_size" checked="" class="custom-control-input">
+                          <div class="custom-control-label">{{size.size_name}}</div>
+                        </label>
+    
+                      {% endfor %}
+    
+                    </div>
+            </div>
+            {% endif %}
+            <!-- col.// -->
+        </div> <!-- row.// -->
+    
+        <a href="https://www.sandbox.paypal.com/signin/?intent=checkout&correlationId=f80374121f46e&flowId=8LP90489TG2254820&state=%253Fflow%253D1-P%2526atomic-event-state%253DeyJkb21haW4iOiJwYXlwYWwtd2ViLXY1LXNkayIsImV2ZW50cyI6W10sImludGVudCI6ImNsaWNrX3BheW1lbnRfYnV0dG9uIiwiaW50ZW50VHlwZSI6ImNsaWNrIiwiaW50ZXJhY3Rpb25TdGFydFRpbWUiOjUxMjMuMTAwMDAwMDIzODQyLCJ0aW1lU3RhbXAiOjUxMjMsInRpbWVPcmlnaW4iOjE3MjEzODgxMzc4MjEuNiwidGFzayI6InNlbGVjdF9vbmVfdGltZV9jaGVja291dCIsImZsb3ciOiJvbmUtdGltZS1jaGVja291dCIsInVpU3RhdGUiOiJ3YWl0aW5nIiwicGF0aCI6Ii9zbWFydC9idXR0b25zIiwidmlld05hbWUiOiJwYXlwYWwtc2RrIn0%25253D%2526sessionID%253Duid_fd5b8db720_mte6mji6mtc%2526buttonSessionID%253Duid_3eb5ac3689_mte6mji6mtc%2526stickinessID%253Duid_59eb1e2df8_mte6mji6mtc%2526smokeHash%253D%2526sign_out_user%253Dfalse%2526fundingSource%253Dpaypal%2526buyerCountry%253DIN%2526locale.x%253Den_IN%2526commit%253Dtrue%2526client-metadata-id%253Duid_fd5b8db720_mte6mji6mtc%2526clientID%253DAZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R%2526env%253Dsandbox%2526sdkMeta%253DeyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWwuY29tL3Nkay9qcz9jbGllbnQtaWQ9dGVzdCZjdXJyZW5jeT1VU0QiLCJhdHRycyI6eyJkYXRhLXVpZCI6InVpZF91cWZ2a3lmamxwcmhsaHVpc21udnRuaHZxZWpyZnYifX0%2526xcomponent%253D1%2526version%253D5.0.451%2526token%253D8LP90489TG2254820%2526ssrt%253D1721389040549%2526rcache%253D1%2526useraction%253DCONTINUE&returnUri=%2Fwebapps%2Fhermes%2F" class="btn  btn-primary"> Buy now </a>
+        <a href="#" class="btn  btn-outline-primary"> <span class="text">Add to cart</span> <i class="fas fa-shopping-cart"></i>  </a>
+    </article> <!-- product-info-aside .// -->
+            </main> <!-- col.// -->
+        </div> <!-- row.// -->
+    </div> <!-- card.// -->
+    <!-- ============================ COMPONENT 1 END .// ================================= -->
+    
+
+    </div>
+    </section>
+
+{% endblock %}

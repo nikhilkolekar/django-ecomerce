@@ -1,0 +1,404 @@
+Folder PATH listing for volume Windows
+Volume serial number is FC91-C721
+C:.
+³   project_structure.txt
+³   
+ÀÄÄÄcomplete-djano-ecommerce-youtube
+    ³   db.sqlite3
+    ³   manage.py
+    ³   README.md
+    ³   
+    ÃÄÄÄaccounts
+    ³   ³   admin.py
+    ³   ³   apps.py
+    ³   ³   models.py
+    ³   ³   tests.py
+    ³   ³   urls.py
+    ³   ³   views.py
+    ³   ³   __init__.py
+    ³   ³   
+    ³   ÃÄÄÄmigrations
+    ³   ³   ³   0001_initial.py
+    ³   ³   ³   __init__.py
+    ³   ³   ³   
+    ³   ³   ÀÄÄÄ__pycache__
+    ³   ³           0001_initial.cpython-310.pyc
+    ³   ³           0001_initial.cpython-312.pyc
+    ³   ³           __init__.cpython-310.pyc
+    ³   ³           __init__.cpython-312.pyc
+    ³   ³           
+    ³   ÀÄÄÄ__pycache__
+    ³           admin.cpython-310.pyc
+    ³           admin.cpython-312.pyc
+    ³           apps.cpython-310.pyc
+    ³           apps.cpython-312.pyc
+    ³           models.cpython-310.pyc
+    ³           models.cpython-312.pyc
+    ³           urls.cpython-310.pyc
+    ³           urls.cpython-312.pyc
+    ³           views.cpython-310.pyc
+    ³           views.cpython-312.pyc
+    ³           __init__.cpython-310.pyc
+    ³           __init__.cpython-312.pyc
+    ³           
+    ÃÄÄÄbase
+    ³   ³   emails.py
+    ³   ³   models.py
+    ³   ³   __init__.py
+    ³   ³   
+    ³   ÀÄÄÄ__pycache__
+    ³           emails.cpython-310.pyc
+    ³           emails.cpython-312.pyc
+    ³           models.cpython-310.pyc
+    ³           models.cpython-312.pyc
+    ³           __init__.cpython-310.pyc
+    ³           __init__.cpython-312.pyc
+    ³           
+    ÃÄÄÄecomm
+    ³   ³   asgi.py
+    ³   ³   settings.py
+    ³   ³   urls.py
+    ³   ³   wsgi.py
+    ³   ³   __init__.py
+    ³   ³   
+    ³   ÀÄÄÄ__pycache__
+    ³           settings.cpython-310.pyc
+    ³           settings.cpython-312.pyc
+    ³           settings.cpython-39.pyc
+    ³           urls.cpython-310.pyc
+    ³           urls.cpython-312.pyc
+    ³           wsgi.cpython-310.pyc
+    ³           wsgi.cpython-312.pyc
+    ³           __init__.cpython-310.pyc
+    ³           __init__.cpython-312.pyc
+    ³           __init__.cpython-39.pyc
+    ³           
+    ÃÄÄÄhome
+    ³   ³   admin.py
+    ³   ³   apps.py
+    ³   ³   models.py
+    ³   ³   tests.py
+    ³   ³   urls.py
+    ³   ³   views.py
+    ³   ³   __init__.py
+    ³   ³   
+    ³   ÃÄÄÄmigrations
+    ³   ³   ³   __init__.py
+    ³   ³   ³   
+    ³   ³   ÀÄÄÄ__pycache__
+    ³   ³           __init__.cpython-310.pyc
+    ³   ³           __init__.cpython-312.pyc
+    ³   ³           
+    ³   ÀÄÄÄ__pycache__
+    ³           admin.cpython-310.pyc
+    ³           admin.cpython-312.pyc
+    ³           apps.cpython-310.pyc
+    ³           apps.cpython-312.pyc
+    ³           models.cpython-310.pyc
+    ³           models.cpython-312.pyc
+    ³           urls.cpython-310.pyc
+    ³           urls.cpython-312.pyc
+    ³           views.cpython-310.pyc
+    ³           views.cpython-312.pyc
+    ³           __init__.cpython-310.pyc
+    ³           __init__.cpython-312.pyc
+    ³           
+    ÃÄÄÄhtml
+    ³   ³   page-blank-starter.html
+    ³   ³   
+    ³   ÃÄÄÄcss
+    ³   ³       .DS_Store
+    ³   ³       bootstrap.css
+    ³   ³       bootstrap.css.map
+    ³   ³       responsive.css
+    ³   ³       responsive.css.map
+    ³   ³       ui.css
+    ³   ³       ui.css.map
+    ³   ³       
+    ³   ÀÄÄÄimages
+    ³       ³   apple-touch-icon.png
+    ³       ³   favicon.ico
+    ³       ³   logo-white.png
+    ³       ³   logo.png
+    ³       ³   logo@2x.png
+    ³       ³   
+    ³       ÃÄÄÄavatars
+    ³       ³       avatar1.jpg
+    ³       ³       avatar2.jpg
+    ³       ³       avatar3.jpg
+    ³       ³       
+    ³       ÃÄÄÄbanners
+    ³       ³       1.png
+    ³       ³       2.png
+    ³       ³       banner.jpg
+    ³       ³       bg-cpu.jpg
+    ³       ³       bg-pattern.svg
+    ³       ³       slide1.jpg
+    ³       ³       slide2.jpg
+    ³       ³       slide3.jpg
+    ³       ³       
+    ³       ÃÄÄÄicons
+    ³       ³       flag-in.png
+    ³       ³       flag-kr.png
+    ³       ³       flag-tr.png
+    ³       ³       flag-usa.png
+    ³       ³       flag-vt.png
+    ³       ³       pay-american-ex.png
+    ³       ³       pay-bank.png
+    ³       ³       pay-mastercard.png
+    ³       ³       pay-visa-el.png
+    ³       ³       pay-visa.png
+    ³       ³       
+    ³       ÃÄÄÄitems
+    ³       ³       1.jpg
+    ³       ³       2.jpg
+    ³       ³       3.jpg
+    ³       ³       4.jpg
+    ³       ³       5.jpg
+    ³       ³       6.jpg
+    ³       ³       7.jpg
+    ³       ³       comp.png
+    ³       ³       item-sm.jpg
+    ³       ³       item-sm.png
+    ³       ³       
+    ³       ÃÄÄÄlogos
+    ³       ³       logo1.png
+    ³       ³       logo2.png
+    ³       ³       logo3.png
+    ³       ³       logo4.png
+    ³       ³       logo5.png
+    ³       ³       
+    ³       ÃÄÄÄmisc
+    ³       ³       appstore.png
+    ³       ³       payments.png
+    ³       ³       playmarket.png
+    ³       ³       
+    ³       ÀÄÄÄposts
+    ³               1.jpg
+    ³               2.jpg
+    ³               3.jpg
+    ³               4.jpg
+    ³               5.jpg
+    ³               6.jpg
+    ³               
+    ÃÄÄÄproducts
+    ³   ³   admin.py
+    ³   ³   apps.py
+    ³   ³   models.py
+    ³   ³   tests.py
+    ³   ³   urls.py
+    ³   ³   views.py
+    ³   ³   __init__.py
+    ³   ³   
+    ³   ÃÄÄÄmigrations
+    ³   ³   ³   0001_initial.py
+    ³   ³   ³   0002_colorvariant_sizevariant_product_color_variant_and_more.py
+    ³   ³   ³   0003_alter_product_color_variant_and_more.py
+    ³   ³   ³   __init__.py
+    ³   ³   ³   
+    ³   ³   ÀÄÄÄ__pycache__
+    ³   ³           0001_initial.cpython-310.pyc
+    ³   ³           0001_initial.cpython-312.pyc
+    ³   ³           0002_colorvariant_sizevariant_product_color_variant_and_more.cpython-310.pyc
+    ³   ³           0002_colorvariant_sizevariant_product_color_variant_and_more.cpython-312.pyc
+    ³   ³           0003_alter_product_color_variant_and_more.cpython-310.pyc
+    ³   ³           0003_alter_product_color_variant_and_more.cpython-312.pyc
+    ³   ³           __init__.cpython-310.pyc
+    ³   ³           __init__.cpython-312.pyc
+    ³   ³           
+    ³   ÀÄÄÄ__pycache__
+    ³           admin.cpython-310.pyc
+    ³           admin.cpython-312.pyc
+    ³           apps.cpython-310.pyc
+    ³           apps.cpython-312.pyc
+    ³           models.cpython-310.pyc
+    ³           models.cpython-312.pyc
+    ³           urls.cpython-310.pyc
+    ³           urls.cpython-312.pyc
+    ³           views.cpython-310.pyc
+    ³           views.cpython-312.pyc
+    ³           __init__.cpython-310.pyc
+    ³           __init__.cpython-312.pyc
+    ³           
+    ÃÄÄÄpublic
+    ³   ÀÄÄÄstatic
+    ³       ÃÄÄÄcatgories
+    ³       ³       1.jpg
+    ³       ³       images.jfif
+    ³       ³       images_aQdeqpm.jfif
+    ³       ³       IMG_7792.png
+    ³       ³       
+    ³       ÃÄÄÄcss
+    ³       ³       .DS_Store
+    ³       ³       bootstrap.css
+    ³       ³       bootstrap.css.map
+    ³       ³       responsive.css
+    ³       ³       responsive.css.map
+    ³       ³       ui.css
+    ³       ³       ui.css.map
+    ³       ³       
+    ³       ÃÄÄÄfonts
+    ³       ³   ÃÄÄÄfontawesome
+    ³       ³   ³   ÃÄÄÄcss
+    ³       ³   ³   ³       all.css
+    ³       ³   ³   ³       all.min.css
+    ³       ³   ³   ³       brands.css
+    ³       ³   ³   ³       brands.min.css
+    ³       ³   ³   ³       fontawesome.css
+    ³       ³   ³   ³       fontawesome.min.css
+    ³       ³   ³   ³       regular.css
+    ³       ³   ³   ³       regular.min.css
+    ³       ³   ³   ³       solid.css
+    ³       ³   ³   ³       solid.min.css
+    ³       ³   ³   ³       svg-with-js.css
+    ³       ³   ³   ³       svg-with-js.min.css
+    ³       ³   ³   ³       v4-shims.css
+    ³       ³   ³   ³       v4-shims.min.css
+    ³       ³   ³   ³       
+    ³       ³   ³   ÃÄÄÄscss
+    ³       ³   ³   ³       brands.scss
+    ³       ³   ³   ³       fontawesome.scss
+    ³       ³   ³   ³       regular.scss
+    ³       ³   ³   ³       solid.scss
+    ³       ³   ³   ³       v4-shims.scss
+    ³       ³   ³   ³       _animated.scss
+    ³       ³   ³   ³       _bordered-pulled.scss
+    ³       ³   ³   ³       _core.scss
+    ³       ³   ³   ³       _fixed-width.scss
+    ³       ³   ³   ³       _icons.scss
+    ³       ³   ³   ³       _larger.scss
+    ³       ³   ³   ³       _list.scss
+    ³       ³   ³   ³       _mixins.scss
+    ³       ³   ³   ³       _rotated-flipped.scss
+    ³       ³   ³   ³       _screen-reader.scss
+    ³       ³   ³   ³       _shims.scss
+    ³       ³   ³   ³       _stacked.scss
+    ³       ³   ³   ³       _variables.scss
+    ³       ³   ³   ³       
+    ³       ³   ³   ÀÄÄÄwebfonts
+    ³       ³   ³           fa-brands-400.eot
+    ³       ³   ³           fa-brands-400.svg
+    ³       ³   ³           fa-brands-400.ttf
+    ³       ³   ³           fa-brands-400.woff
+    ³       ³   ³           fa-brands-400.woff2
+    ³       ³   ³           fa-regular-400.eot
+    ³       ³   ³           fa-regular-400.svg
+    ³       ³   ³           fa-regular-400.ttf
+    ³       ³   ³           fa-regular-400.woff
+    ³       ³   ³           fa-regular-400.woff2
+    ³       ³   ³           fa-solid-900.eot
+    ³       ³   ³           fa-solid-900.svg
+    ³       ³   ³           fa-solid-900.ttf
+    ³       ³   ³           fa-solid-900.woff
+    ³       ³   ³           fa-solid-900.woff2
+    ³       ³   ³           
+    ³       ³   ÀÄÄÄroboto
+    ³       ³           font.css
+    ³       ³           Roboto-Bold.ttf
+    ³       ³           Roboto-Light.ttf
+    ³       ³           Roboto-Medium.ttf
+    ³       ³           Roboto-Regular.ttf
+    ³       ³           Roboto-Thin.ttf
+    ³       ³           
+    ³       ÃÄÄÄimages
+    ³       ³   ³   apple-touch-icon.png
+    ³       ³   ³   favicon.ico
+    ³       ³   ³   logo-white.png
+    ³       ³   ³   logo.png
+    ³       ³   ³   logo@2x.png
+    ³       ³   ³   
+    ³       ³   ÃÄÄÄavatars
+    ³       ³   ³       avatar1.jpg
+    ³       ³   ³       avatar2.jpg
+    ³       ³   ³       avatar3.jpg
+    ³       ³   ³       
+    ³       ³   ÃÄÄÄbanners
+    ³       ³   ³       1.png
+    ³       ³   ³       2.png
+    ³       ³   ³       banner.jpg
+    ³       ³   ³       bg-cpu.jpg
+    ³       ³   ³       bg-pattern.svg
+    ³       ³   ³       slide1.jpg
+    ³       ³   ³       slide2.jpg
+    ³       ³   ³       slide3.jpg
+    ³       ³   ³       
+    ³       ³   ÃÄÄÄicons
+    ³       ³   ³       flag-in.png
+    ³       ³   ³       flag-kr.png
+    ³       ³   ³       flag-tr.png
+    ³       ³   ³       flag-usa.png
+    ³       ³   ³       flag-vt.png
+    ³       ³   ³       pay-american-ex.png
+    ³       ³   ³       pay-bank.png
+    ³       ³   ³       pay-mastercard.png
+    ³       ³   ³       pay-visa-el.png
+    ³       ³   ³       pay-visa.png
+    ³       ³   ³       
+    ³       ³   ÃÄÄÄitems
+    ³       ³   ³       1.jpg
+    ³       ³   ³       2.jpg
+    ³       ³   ³       3.jpg
+    ³       ³   ³       4.jpg
+    ³       ³   ³       5.jpg
+    ³       ³   ³       6.jpg
+    ³       ³   ³       7.jpg
+    ³       ³   ³       comp.png
+    ³       ³   ³       item-sm.jpg
+    ³       ³   ³       item-sm.png
+    ³       ³   ³       
+    ³       ³   ÃÄÄÄlogos
+    ³       ³   ³       logo1.png
+    ³       ³   ³       logo2.png
+    ³       ³   ³       logo3.png
+    ³       ³   ³       logo4.png
+    ³       ³   ³       logo5.png
+    ³       ³   ³       
+    ³       ³   ÃÄÄÄmisc
+    ³       ³   ³       appstore.png
+    ³       ³   ³       payments.png
+    ³       ³   ³       playmarket.png
+    ³       ³   ³       
+    ³       ³   ÀÄÄÄposts
+    ³       ³           1.jpg
+    ³       ³           2.jpg
+    ³       ³           3.jpg
+    ³       ³           4.jpg
+    ³       ³           5.jpg
+    ³       ³           6.jpg
+    ³       ³           
+    ³       ÃÄÄÄjs
+    ³       ³       bootstrap.bundle.min.js
+    ³       ³       jquery-2.0.0.min.js
+    ³       ³       script.js
+    ³       ³       
+    ³       ÃÄÄÄproduct
+    ³       ³       1.jpg
+    ³       ³       1.png
+    ³       ³       Capturesdfghjkolp.PNG
+    ³       ³       Capturesdfghjkolp_CeCb0eU.PNG
+    ³       ³       images.jfif
+    ³       ³       IMG_7792.png
+    ³       ³       party-wear-jeans-500x500.png
+    ³       ³       
+    ³       ÀÄÄÄprofile
+    ³               IMG_7792.png
+    ³               
+    ÀÄÄÄtemplates
+        ÃÄÄÄaccounts
+        ³       cart.html
+        ³       login.html
+        ³       register.html
+        ³       
+        ÃÄÄÄbase
+        ³       alert.html
+        ³       base.html
+        ³       
+        ÃÄÄÄcart
+        ³       cart.html
+        ³       
+        ÃÄÄÄhome
+        ³       index.html
+        ³       
+        ÀÄÄÄproduct
+                product.html
+                
